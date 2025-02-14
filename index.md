@@ -1,10 +1,13 @@
 ---
 layout: default
 ---
+Hello,
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+My name is Mark Leventhal, an ambitious Technical Support leader with 5 years of experience in Hardware Repair, IT User Support, Leading and Managing Teams, and Customer Service. My Associates degree in computer information management provides exposure and experience with programming and scripting languages such as Power Shell, C#/C++, Visual Basic, HTML, PhP, and Python. 
 
-[Link to another page](./another-page.html).
+I am currently looking to start a new role in Cyber Security, which I have obtained my CompTIA Security+ Certification. 
+
+[LinkedIn](https://www.linkedin.com/in/maleventhal/).
 
 There should be whitespace between paragraphs.
 
