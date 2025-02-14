@@ -1,6 +1,8 @@
-title: Minimal theme
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: [Mark Leventhal's Cyber Security Projects]
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: [A collection of Cyber Security Projects]
 show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+
