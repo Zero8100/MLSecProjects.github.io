@@ -4,5 +4,5 @@ plugins:
 title: [Mark Leventhal's Cyber Security Projects]
 logo: SecurityPlus Logo Certified CE (UPDATE).png
 description: [A collection of Cyber Security Projects]
-show_downloads: true
+show_downloads: false
 
