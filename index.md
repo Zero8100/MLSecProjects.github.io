@@ -7,7 +7,7 @@ My name is Mark Leventhal, an ambitious Technical Support leader with 5 years of
 
 I am currently looking to start a new role in Cyber Security, which I have obtained my CompTIA Security+ Certification. 
 
-[LinkedIn](https://www.linkedin.com/in/maleventhal/).
+[LinkedIn](https://www.linkedin.com/in/maleventhal/)
 
 There should be whitespace between paragraphs.
 
