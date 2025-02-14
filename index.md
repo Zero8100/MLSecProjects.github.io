@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+Hello,
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+  My name is Mark Leventhal, an ambitious Technical Support leader with 5 years of experience in Hardware Repair, IT User Support, Leading and Managing Teams, and Customer Service. My Associates degree in computer information management provides exposure and experience with programming and scripting languages such as Power Shell, C#/C++, Visual Basic, HTML, PhP, and Python. 
+  
+  I am currently looking to start a role in Cyber Security, in which I have obtained my CompTIA Security+ Certification. This page will contain a collection of projects I have completed on my own time to demonstrate my skills and understanding regarding Cyber Security techniques and procedures.
+  
+[Link to another page](https://www.linkedin.com/in/maleventhal/).
 
-[Link to another page](./another-page.html).
+![Security+](SecurityPlus Logo Certified CE.png)
 
 There should be whitespace between paragraphs.
 
