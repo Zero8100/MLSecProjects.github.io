@@ -9,7 +9,7 @@ Hello,
   
 [LinkedIn Profile](https://www.linkedin.com/in/maleventhal/).
 
-![Security+](SecurityPlus Logo Certified CE.png)
+[Security+](SecurityPlus Logo Certified CE (UPDATE).png)
 
 There should be whitespace between paragraphs.
 
