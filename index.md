@@ -7,7 +7,7 @@ Hello,
   
   I am currently looking to start a role in Cyber Security, in which I have obtained my CompTIA Security+ Certification. This page will contain a collection of projects I have completed on my own time to demonstrate my skills and understanding regarding Cyber Security techniques and procedures.
   
-[Link to another page](https://www.linkedin.com/in/maleventhal/).
+[LinkedIn Profile](https://www.linkedin.com/in/maleventhal/).
 
 ![Security+](SecurityPlus Logo Certified CE.png)
 
