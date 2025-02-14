@@ -2,7 +2,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: [Mark Leventhal's Cyber Security Projects]
-logo: /assets/img/logo.png
+logo: SecurityPlus Logo Certified CE (UPDATE).png
 description: [A collection of Cyber Security Projects]
 show_downloads: true
 
