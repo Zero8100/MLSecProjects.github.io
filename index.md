@@ -3,17 +3,24 @@ layout: default
 ---
 Hello,
 
-My name is Mark Leventhal, an ambitious Technical Support leader with 5 years of experience in Hardware Repair, IT User Support, Leading and Managing Teams, and Customer Service. My Associates degree in computer information management provides exposure and experience with programming and scripting languages such as Power Shell, C#/C++, Visual Basic, HTML, PhP, and Python. 
+My name is Mark Leventhal, an aspiring Cyber Security professional actively looking for a cyber security role. I am a Technical Support leader with 
+5 years of experience in Hardware Repair, IT User Support, Leading and Managing Teams, and Customer Service.  
 
-I am currently looking to start a new role in Cyber Security, which I have obtained my CompTIA Security+ Certification. 
+Training and Certifications 
+
+CompTIA Security+ : Confidently explain and define general security concepts. Navigate the complexities 
+of secure systems and network design. Explore threats, vulnerabilities, and mitigation tactics. Document 
+security operations and architectures 
+
+TryHackMe SOC Level 1 : Provided hands on experience with Cyber Defense Frameworks, Cyber Threat 
+Intelligence, Network Security and Traffic Analysis, Endpoint Security, SIEM, Digital Forensics, Incident 
+Reporting, and Phishing Techniques.
 
 [LinkedIn](https://www.linkedin.com/in/maleventhal/)
 
-There should be whitespace between paragraphs.
+Below I will show my Home SOC project where I demonstrate my profeciency in tasks that a Security Analyst must perform.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
+# HOME SOC Environment
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
