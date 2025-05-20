@@ -18,11 +18,17 @@ Reporting, and Phishing Techniques.
 
 [LinkedIn](https://www.linkedin.com/in/maleventhal/)
 
-Below I will show my Home SOC project where I demonstrate my profeciency in tasks that a Security Analyst must perform.
+# SOC Analyst Projects
 
-# HOME SOC Environment
+Below I will show my Home SOC project where I demonstrate my profeciency in tasks that a Security Analyst must perform. Such as log analysis, Network Security and Traffic Analysis, Endpoint Security, SIEM, Digital Forensics, Incident Reporting.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+###### Environment
+
+| VM            | Purpose                     | OS            | Tools Inside
+|:--------------|:----------------------------|:--------------|:--------------------------------------|
+| Splunk        | Main SIEM + network monitor | Ubuntu-based  | Zeek, Suricata, Wazuh, Kibana
+| Kali Linux    | Attacker machine            | Debian-based  | Metasploit, Nmap, Wireshark
+| Windows 10/11 | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
 
 ## Header 2
 
@@ -59,14 +65,14 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+###### Environment
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| VM            | Purpose                     | OS            | Tools Inside
+|:--------------|:----------------------------|:--------------|:--------------------------------------|
+| Splunk        | Main SIEM + network monitor | Ubuntu-based  | Zeek, Suricata, Wazuh, Kibana
+| Kali Linux    | Attacker machine            | Debian-based  | Metasploit, Nmap, Wireshark
+| Windows 10/11 | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
+
 
 ### There's a horizontal rule below this.
 
