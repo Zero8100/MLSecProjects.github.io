@@ -28,7 +28,8 @@ Below I will show my Home SOC project where I demonstrate my profeciency in task
 |:--------------|:----------------------------|:--------------|:--------------------------------------|
 | Splunk        | Main SIEM + network monitor | Ubuntu-based  | Zeek, Suricata, Wazuh, Kibana
 | Kali Linux    | Attacker machine            | Debian-based  | Metasploit, Nmap, Wireshark
-| Windows 10/11 | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
+| EndUser PC    | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
+| Analyst PC    | Analyst endpoint            | Windows		    | Wireshark, Sysinternals, VSCode, Notepad++, Python, Git
 
 ## Header 2
 
