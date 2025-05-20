@@ -22,7 +22,9 @@ Reporting, and Phishing Techniques.
 
 Below I will show my Home SOC project where I demonstrate my profeciency in tasks that a Security Analyst must perform. Such as log analysis, Network Security and Traffic Analysis, Endpoint Security, SIEM, Digital Forensics, Incident Reporting.
 
-###### Environment
+### Environment
+
+I have 4 Virtual Machines in my Home SOC Lab. These were all setup using Oracle Virtual Box.
 
 | VM            | Purpose                     | OS            | Tools Inside
 |:--------------|:----------------------------|:--------------|:--------------------------------------|
