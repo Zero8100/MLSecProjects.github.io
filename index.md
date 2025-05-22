@@ -20,8 +20,6 @@ Reporting, and Phishing Techniques.
 
 # SOC Analyst Projects
 
-Below I will show my Home SOC project where I demonstrate my profeciency in tasks that a Security Analyst must perform. Such as log analysis, Network Security and Traffic Analysis, Endpoint Security, SIEM, Digital Forensics, Incident Reporting.
-
 ## Cybersecurity Detection Lab: End-to-End SOC Simulation Environment
 
 ### Objective
@@ -43,28 +41,25 @@ Purpose: Simulates a typical enterprise workstation.
 Tools Installed:
 *  Sysmon (System Monitor) with custom configuration
 *  Splunk Universal Forwarder
-
 Logging Setup:
 *  Sysmon logs written to Microsoft-Windows-Sysmon/Operational
 *  Windows Security, Application, and System Event logs forwarded
 *  Logs sent to index=winlogs on central Splunk server
-
 Configuration Highlights:
 *  Custom inputs.conf to enable WinEventLog and XmlWinEventLog ingestion
 *  Troubleshooting included tuning indexing behavior and ensuring full event visibility
 *  Tested and validated Event ID collection (e.g., 1, 11 for Sysmon, 4663 for Windows auditing)
-
+*  
 #### 2. Splunk Core Instance
 Purpose: Acts as centralized log aggregation, search, and detection engine
 Role:
 *  Receives logs from Universal Forwarder
 *  Contains dashboards for live detection analytics
-
 Dashboards Created:
 *  Sysmon Event Summary
 *  Windows EventCode Analysis
 *  Host Activity Tracker
-
+*  
 #### 3. SOC Analyst Workstation (Windows)
 Purpose: Emulates the workflow of a blue-team analyst
 Tools Installed:
