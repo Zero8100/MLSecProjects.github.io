@@ -96,8 +96,18 @@ Configuration:
 Simulated an obfuscated PowerShell attack using -enc (encoded command), then detected the behavior using Splunk and Sysmon Event ID 1. Created a dashboard to alert on such activity.
 
 #### Simulated Attack
-```ps
-// This encoded string represents a PowerShell payload — often seen in phishing and red team activity.
-powershell -enc SQBFAFgAIAAoAE4AZ...
-}
 ```
+# This encoded string represents a PowerShell payload
+# often seen in phishing and red team activity.
+powershell -enc SQBFAFgAIAAoAE4AZ...
+```
+
+#### Detection Query in Splunk
+```
+index=winlogs sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational EventCode=1
+| where like(CommandLine, "%-enc%") OR like(CommandLine, "%EncodedCommand%")
+| table _time, Computer, User, ParentImage, Image, CommandLine
+```
+
+#### Dashboard Screenshot
+![Branching](EncPowerShell.PNG)
