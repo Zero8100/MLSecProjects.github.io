@@ -79,6 +79,17 @@ Configuration:
 *  Dual NIC setup (NAT + Host-only)
 *  IP verified and tested for internal reachability (ping, nmap)
 
+#### Technologies Used
+| Component             | Technology                          | 
+|:----------------------|:------------------------------------|
+| Logging Agent         | Splunk Universal Forwarder          | 
+| Endpoint Telemetry	  | Sysmon                              | 
+| SIEM                  | Splunk Enterprise                   | 
+| Threat Emulation	    | Kali Linux                          | 
+| Network Tooling		    | VirtualBox (Host-only Networking)   | 
+| Log Forwarding Config	| inputs.conf, outputs.conf           | 
+| Auditing Enhancements	| auditpol, PowerShell ACL Scripting  | 
+
 ## Header 2
 
 > This is a blockquote following a header.
