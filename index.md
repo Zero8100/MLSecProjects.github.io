@@ -80,6 +80,7 @@ Configuration:
 *  IP verified and tested for internal reachability (ping, nmap)
 
 #### Technologies Used
+
 | Component             | Technology                          | 
 |:----------------------|:------------------------------------|
 | Logging Agent         | Splunk Universal Forwarder          | 
