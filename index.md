@@ -38,40 +38,44 @@ I have 4 Virtual Machines in my Home SOC Lab. These were all setup using Oracle 
 
 #### 1. Victim PC (Windows 10)
 ##### Purpose: Simulates a typical enterprise workstation.
-##### Tools Installed:
+Tools Installed:
 *  Sysmon (System Monitor) with custom configuration
 *  Splunk Universal Forwarder
-##### Logging Setup:
+  
+Logging Setup:
 *  Sysmon logs written to Microsoft-Windows-Sysmon/Operational
 *  Windows Security, Application, and System Event logs forwarded
 *  Logs sent to index=winlogs on central Splunk server
-##### Configuration Highlights:
+
+Configuration Highlights:
 *  Custom inputs.conf to enable WinEventLog and XmlWinEventLog ingestion
 *  Troubleshooting included tuning indexing behavior and ensuring full event visibility
 *  Tested and validated Event ID collection (e.g., 1, 11 for Sysmon, 4663 for Windows auditing)
   
 #### 2. Splunk Core Instance
 ##### Purpose: Acts as centralized log aggregation, search, and detection engine
-##### Role:
+Role:
 *  Receives logs from Universal Forwarder
 *  Contains dashboards for live detection analytics
-##### Dashboards Created:
+  
+Dashboards Created:
 *  Sysmon Event Summary
 *  Windows EventCode Analysis
 *  Host Activity Tracker
    
 #### 3. SOC Analyst Workstation (Windows)
 ##### Purpose: Emulates the workflow of a blue-team analyst
-##### Tools Installed:
+Tools Installed:
 *  Splunk Web (for investigation)
 *  Sysinternals Suite (e.g., Process Explorer, Autoruns, etc.)
 *  Sysmon Config Validator
 *  PowerShell & Log Parser Tools
-##### Rationale: Chosen for compatibility with common enterprise tools and Windows-based event investigation workflows
+  
+Rationale: Chosen for compatibility with common enterprise tools and Windows-based event investigation workflows
 
 #### 4. Kali Linux Attacker VM
 ##### Purpose: Simulates external or insider threat actor
-##### Configuration:
+Configuration:
 *  Dual NIC setup (NAT + Host-only)
 *  IP verified and tested for internal reachability (ping, nmap)
 
