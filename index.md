@@ -91,3 +91,13 @@ Configuration:
 | Log Forwarding Config	| inputs.conf, outputs.conf           | 
 | Auditing Enhancements	| auditpol, PowerShell ACL Scripting  | 
 
+## PowerShell Obfuscation Detection via Sysmon & Splunk
+#### Overview
+Simulated an obfuscated PowerShell attack using -enc (encoded command), then detected the behavior using Splunk and Sysmon Event ID 1. Created a dashboard to alert on such activity.
+
+#### Simulated Attack
+```ps
+// This encoded string represents a PowerShell payload — often seen in phishing and red team activity.
+powershell -enc SQBFAFgAIAAoAE4AZ...
+}
+```
