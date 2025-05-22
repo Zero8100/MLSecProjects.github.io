@@ -93,7 +93,7 @@ Configuration:
 
 ## PowerShell Obfuscation Detection via Sysmon & Splunk
 #### Overview
-Simulated an obfuscated PowerShell attack using -enc (encoded command), then detected the behavior using Splunk and Sysmon Event ID 1. Created a dashboard to alert on such activity.
+I simulated an obfuscated PowerShell attack using -enc (encoded command), then detected the behavior using Splunk and Sysmon Event ID 1. I created a dashboard to alert on such activity.
 
 #### Simulated Attack
 ```
@@ -111,3 +111,8 @@ index=winlogs sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational Eve
 
 #### Dashboard Screenshot
 ![Branching](EncPowerShell.PNG)
+
+#### Outcome
+* Successfully detected encoded PowerShell usage.
+* Verified that no false positives were triggered from legitimate administrative use.
+* Dashboard now part of ongoing Blue Team monitoring.
