@@ -24,7 +24,7 @@ Below I will show my Home SOC project where I demonstrate my profeciency in task
 
 ## Cybersecurity Detection Lab: End-to-End SOC Simulation Environment
 
-###Objective
+### Objective
 To build a functional detection lab replicating real-world blue-team environments. The setup simulates an internal corporate network with endpoint activity, centralized log collection, and adversarial threat emulation using Kali Linux. This lab enables the development and testing of detection logic using Splunk and Sysmon.
 
 ### Lab Architecture
@@ -38,7 +38,7 @@ I have 4 Virtual Machines in my Home SOC Lab. These were all setup using Oracle 
 | Victim PC     | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
 | Analyst PC    | Analyst endpoint            | Windows		    | Wireshark, Sysinternals, VSCode, Notepad++, Python, Git
 
-1. Victim PC (Windows 10)
+#### 1.Victim PC (Windows 10)
 Purpose: Simulates a typical enterprise workstation.
 Tools Installed:
 *  Sysmon (System Monitor) with custom configuration
@@ -54,7 +54,7 @@ Configuration Highlights:
 *  Troubleshooting included tuning indexing behavior and ensuring full event visibility
 *  Tested and validated Event ID collection (e.g., 1, 11 for Sysmon, 4663 for Windows auditing)
 
-2. Splunk Core Instance
+#### 2. Splunk Core Instance
 Purpose: Acts as centralized log aggregation, search, and detection engine
 Role:
 *  Receives logs from Universal Forwarder
@@ -65,7 +65,7 @@ Dashboards Created:
 *  Windows EventCode Analysis
 *  Host Activity Tracker
 
-3. SOC Analyst Workstation (Windows)
+#### 3. SOC Analyst Workstation (Windows)
 Purpose: Emulates the workflow of a blue-team analyst
 Tools Installed:
 *  Splunk Web (for investigation)
@@ -74,7 +74,7 @@ Tools Installed:
 *  PowerShell & Log Parser Tools
 Rationale: Chosen for compatibility with common enterprise tools and Windows-based event investigation workflows
 
-4. Kali Linux Attacker VM
+#### 4. Kali Linux Attacker VM
 Purpose: Simulates external or insider threat actor
 Configuration:
 *  Dual NIC setup (NAT + Host-only)
