@@ -36,7 +36,7 @@ I have 4 Virtual Machines in my Home SOC Lab. These were all setup using Oracle 
 | Victim PC     | Victim endpoint             | Windows		    | Sysmon, SysInternals, Splunk Forwarder
 | Analyst PC    | Analyst endpoint            | Windows		    | Wireshark, Sysinternals, VSCode, Notepad++, Python, Git
 
-#### 1.Victim PC (Windows 10)
+#### 1. Victim PC (Windows 10)
 Purpose: Simulates a typical enterprise workstation.
 Tools Installed:
 *  Sysmon (System Monitor) with custom configuration
@@ -49,7 +49,7 @@ Configuration Highlights:
 *  Custom inputs.conf to enable WinEventLog and XmlWinEventLog ingestion
 *  Troubleshooting included tuning indexing behavior and ensuring full event visibility
 *  Tested and validated Event ID collection (e.g., 1, 11 for Sysmon, 4663 for Windows auditing)
-*  
+  
 #### 2. Splunk Core Instance
 Purpose: Acts as centralized log aggregation, search, and detection engine
 Role:
@@ -59,7 +59,7 @@ Dashboards Created:
 *  Sysmon Event Summary
 *  Windows EventCode Analysis
 *  Host Activity Tracker
-*  
+   
 #### 3. SOC Analyst Workstation (Windows)
 Purpose: Emulates the workflow of a blue-team analyst
 Tools Installed:
